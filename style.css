@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /*background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4);*/
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    margin: 100px auto;
+    text-align: center;
+}
+h1{
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+p{
+    font-size: 5em;
+    color: #fff;
+}
+button{
+    border: none;
+    padding: 18px 10px;
+    font-size: 1.2em;
+    width: 180px;
+    margin: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: gold;
+    color: black;
+    transition: 0.4s;
+    border: none;
+}
